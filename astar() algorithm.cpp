@@ -94,7 +94,7 @@ int main() {
     int start_x = 0;
     int start_y = 0;
     int goal_x = 4;
-    int goal_y = 4;
+    int goal_y = 3;
 
     vector<pair<int, int>> path = astar(grid, start_x, start_y, goal_x, goal_y);
 
